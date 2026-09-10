@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: yt-wav-converter
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    autoDeploy: true
